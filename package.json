@@ -23,7 +23,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "/test-page/",
   "browserslist": {
     "production": [
       ">0.2%",
