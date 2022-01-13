@@ -33,5 +33,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_BRANCH: gh2-pages
           BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: docs/.vuepress/dist
+          BUILD_DIR: build
           CNAME: https://www.myq.com
