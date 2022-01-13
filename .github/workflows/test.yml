@@ -34,4 +34,4 @@ jobs:
           TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: build
-          CNAME: https://www.myq.com
+          CNAME: https://blog.mayaqiang.vip
