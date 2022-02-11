@@ -9,6 +9,10 @@
   },
   "devDependencies": {
     "eslint": "^8.8.0",
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-sakura": "^1.1.0"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.10"
   }
 }
