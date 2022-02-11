@@ -7,7 +7,7 @@ home: true
 #   display: block,
 #   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 # }
-heroText: maYaQiang's Blog
+heroText: 山行野宿，孑然万里
 # bgImage: '/bgc.svg'
 # bgImageStyle: {
 #   height: '350px'
