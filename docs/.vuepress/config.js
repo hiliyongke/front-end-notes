@@ -1,5 +1,5 @@
 module.exports = {
-    title:'晴时多云',
+    title:'零向量',
     description:"山行野宿，孑然万里",
     theme: 'reco',
     // 在移动端，搜索框在获得焦点时会放大，并且在失去焦点后可以左右滚动，这可以通过设置元来优化。
