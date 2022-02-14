@@ -8,8 +8,8 @@ tags:
 ---
 # 命名规范
 
-![front-end-develop-standard02.jpg](../images/front-end-develop-standard02.jpg)
-
+![](https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/front-end-develop-standard02.jpg)
+<!-- more -->
 ## 驼峰式命名法介绍
 
 - Pascal Case 大驼峰式命名法：首字母大写。eg：StudentInfo、UserInfo

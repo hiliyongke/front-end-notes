@@ -8,16 +8,15 @@ tags:
 prev: ../../code/javascript/
 # next: ../../code/react/
 ---
-
-![front-end-develop-standard06-1.jpg](../../images/front-end-develop-standard06-1.jpg)
-
+![](https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/front-end-develop-standard06-1.jpg)
+<!-- more -->
 ## 最佳原则
 
 坚持制定好的代码规范。
 
 无论团队人数多少，代码应该同出一门。
 
-如果你想要为这个规范做贡献或觉得有不合理的地方，请访问[New Issue](https://github.com/niceboybao/front-end-develop-standard/issues)。
+<!-- 如果你想要为这个规范做贡献或觉得有不合理的地方，请访问[New Issue](https://github.com/niceboybao/front-end-develop-standard/issues)。 -->
 
 ## ES6 基本规范
 

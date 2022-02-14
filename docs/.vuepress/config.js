@@ -23,10 +23,10 @@ module.exports = {
     themeConfig:{
         type: 'blog',
         logo: '/logo.png',
+        subSidebar: 'auto',
         smoothScroll: true,
         authorAvatar: '/logo.png',
-        // 是否显示搜索框
-        // search:false,
+        noFoundPageByTencent: false,
         sidebar: 'auto',
         
         // 顶部导航
@@ -42,7 +42,8 @@ module.exports = {
                             { text: 'Css', link: '/front_end_development/code/css/' },
                             { text: 'Html', link: '/front_end_development/code/html/' },
                             { text: 'Javascript', link: '/front_end_development/code/javascript/' },
-                            { text: 'Es6', link: '/front_end_development/code/es6/' }
+                            { text: 'Es6', link: '/front_end_development/code/es6/' },
+                            { text: 'React', link: '/front_end_development/code/react/' }
                           ] 
                     },
                     { 

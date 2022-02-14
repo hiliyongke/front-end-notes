@@ -4,13 +4,12 @@ date: 2020-8-12
 categories:
  - 代码规范
 tags:
- - 代码规范
+ - 代码规范 
 prev: ../../code/html/
 next: ../../code/javascript/
 ---
-
-![front-end-develop-standard04.jpg](../../images/front-end-develop-standard04.jpg)
-
+![](https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/front-end-develop-standard04.jpg)
+<!-- more -->
 ## 最佳原则
 
 坚持制定好的代码规范。

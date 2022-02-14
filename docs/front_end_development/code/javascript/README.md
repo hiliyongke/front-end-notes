@@ -9,8 +9,8 @@ prev: ../../code/css/
 next: ../../code/es6/
 ---
 
-![front-end-develop-standard05.jpg](../../images/front-end-develop-standard05.jpg)
-
+![](https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/front-end-develop-standard05.jpg)
+<!-- more -->
 ## 最佳原则
 
 坚持制定好的代码规范。

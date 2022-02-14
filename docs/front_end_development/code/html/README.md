@@ -8,9 +8,8 @@ tags:
 prev: ../../name/
 next: ../../code/css/
 ---
-
-![front-end-develop-standard03.jpg](../../images/front-end-develop-standard03.jpg)
-
+![](https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/front-end-develop-standard03.jpg)
+<!-- more -->
 # 基本原则
 
 ## 结构、行为、样式分离
