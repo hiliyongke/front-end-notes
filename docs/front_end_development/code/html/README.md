@@ -1,9 +1,13 @@
 ---
+title: Html规范
+date: 2019-7-11
+categories:
+ - 代码规范
+tags:
+ - 代码规范
 prev: ../../name/
 next: ../../code/css/
 ---
-
-# HTML 规范
 
 ![front-end-develop-standard03.jpg](../../images/front-end-develop-standard03.jpg)
 

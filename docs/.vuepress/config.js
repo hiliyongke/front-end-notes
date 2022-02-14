@@ -55,6 +55,7 @@ module.exports = {
                     {
                         text:'前端工程化',
                         items:[
+                            { text: '简介', link: '/front_end_engineering/' },
                             { text: '技术选型', link: '/front_end_engineering/01.html' },
                             { text: '统一规范', link: '/front_end_engineering/02.html' },
                             { text: '前端组件化', link: '/front_end_engineering/03.html' },
@@ -62,7 +63,8 @@ module.exports = {
                             { text: '构建工具', link: '/front_end_engineering/05.html' },
                             { text: '自动化部署', link: '/front_end_engineering/06.html' },
                             { text: '前端监控', link: '/front_end_engineering/07.html' },
-                            { text: '性能优化', link: '/front_end_engineering/08.html' },
+                            { text: '性能优化(一)', link: '/front_end_engineering/08.html' },
+                            { text: '性能优化(二)', link: '/front_end_engineering/09.html' },
                             { text: '重构', link: '/front_end_engineering/10.html' },
                             { text: '微服务', link: '/front_end_engineering/11.html' },
                             { text: 'Serverless', link: '/front_end_engineering/12.html' },

@@ -1,3 +1,12 @@
+---
+title: 前端工程化-简介
+date: 2020-7-21
+categories:
+ - 前端工程化
+tags:
+ - 技术选型
+heroImage: 'https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/Uf323c2d0b4f14007b869c576f5064c112.jpeg'
+---
 ## 简介
 前端工程化，其实是软件工程在前端方面的应用。什么是软件工程？来看一下百度百科的定义：
 >软件工程是一门研究用工程化方法构建和维护有效的、实用的和高质量的软件的学科

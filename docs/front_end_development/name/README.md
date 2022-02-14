@@ -1,3 +1,11 @@
+---
+title: 命名规范
+date: 2019-7-13
+categories:
+ - 代码规范
+tags:
+ - 代码规范
+---
 # 命名规范
 
 ![front-end-develop-standard02.jpg](../images/front-end-develop-standard02.jpg)

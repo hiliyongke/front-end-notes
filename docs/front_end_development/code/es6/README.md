@@ -1,9 +1,13 @@
 ---
+title: Es6规范
+date: 2019-6-02
+categories:
+ - 代码规范
+tags:
+ - 代码规范
 prev: ../../code/javascript/
 # next: ../../code/react/
 ---
-
-# ECMAScript 6 规范
 
 ![front-end-develop-standard06-1.jpg](../../images/front-end-develop-standard06-1.jpg)
 

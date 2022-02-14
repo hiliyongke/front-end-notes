@@ -1,9 +1,13 @@
 ---
+title: Javascript规范
+date: 2019-7-29
+categories:
+ - 代码规范
+tags:
+ - 代码规范
 prev: ../../code/css/
 next: ../../code/es6/
 ---
-
-# JavaScript 规范
 
 ![front-end-develop-standard05.jpg](../../images/front-end-develop-standard05.jpg)
 

@@ -1,9 +1,13 @@
 ---
+title: Css规范
+date: 2020-8-12
+categories:
+ - 代码规范
+tags:
+ - 代码规范
 prev: ../../code/html/
 next: ../../code/javascript/
 ---
-
-# css规范
 
 ![front-end-develop-standard04.jpg](../../images/front-end-develop-standard04.jpg)
 
