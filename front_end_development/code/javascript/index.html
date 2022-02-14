@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Javascript规范 | 零向量</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="山行野宿，孑然万里">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.b14fcf98.css" as="style"><link rel="preload" href="/assets/js/app.a75c4bbd.js" as="script"><link rel="preload" href="/assets/js/3.5d4e947c.js" as="script"><link rel="preload" href="/assets/js/1.fb2c499a.js" as="script"><link rel="preload" href="/assets/js/14.eafd3af8.js" as="script"><link rel="prefetch" href="/assets/js/10.883ab3d0.js"><link rel="prefetch" href="/assets/js/11.c4ef10a1.js"><link rel="prefetch" href="/assets/js/12.678259ad.js"><link rel="prefetch" href="/assets/js/13.8c287a56.js"><link rel="prefetch" href="/assets/js/15.9b6babb3.js"><link rel="prefetch" href="/assets/js/16.24152e07.js"><link rel="prefetch" href="/assets/js/17.41c9ee8b.js"><link rel="prefetch" href="/assets/js/18.814b66ec.js"><link rel="prefetch" href="/assets/js/19.1e169c09.js"><link rel="prefetch" href="/assets/js/20.3b88d113.js"><link rel="prefetch" href="/assets/js/21.e4278101.js"><link rel="prefetch" href="/assets/js/22.a0c8f0ab.js"><link rel="prefetch" href="/assets/js/23.62eb80fd.js"><link rel="prefetch" href="/assets/js/24.ed7a930d.js"><link rel="prefetch" href="/assets/js/25.aa1c7d32.js"><link rel="prefetch" href="/assets/js/26.5e97a58c.js"><link rel="prefetch" href="/assets/js/27.8846dd8b.js"><link rel="prefetch" href="/assets/js/28.dc1a6cb1.js"><link rel="prefetch" href="/assets/js/29.9a984e61.js"><link rel="prefetch" href="/assets/js/4.6e437d63.js"><link rel="prefetch" href="/assets/js/5.c366e291.js"><link rel="prefetch" href="/assets/js/6.203dc69b.js"><link rel="prefetch" href="/assets/js/7.72c57f36.js"><link rel="prefetch" href="/assets/js/8.f5a69639.js"><link rel="prefetch" href="/assets/js/9.59c1f678.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b14fcf98.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-1aefc0b4><div data-v-1aefc0b4><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-1aefc0b4 data-v-1aefc0b4><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-25ba6db2 data-v-1aefc0b4 data-v-1aefc0b4><h3 class="title" data-v-25ba6db2 data-v-25ba6db2>零向量</h3> <p class="description" data-v-25ba6db2 data-v-25ba6db2>山行野宿，孑然万里</p> <label id="box" class="inputBox" data-v-25ba6db2 data-v-25ba6db2><input type="password" value="" data-v-25ba6db2> <span data-v-25ba6db2>Konck! Knock!</span> <button data-v-25ba6db2>OK</button></label> <div class="footer" data-v-25ba6db2 data-v-25ba6db2><span data-v-25ba6db2><i class="iconfont reco-theme" data-v-25ba6db2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-25ba6db2>vuePress-theme-reco</a></span> <span data-v-25ba6db2><i class="iconfont reco-copyright" data-v-25ba6db2></i> <a data-v-25ba6db2><!---->
+            
+          <!---->
+          2022
+        </a></span></div></div> <div class="hide" data-v-1aefc0b4><header class="navbar" data-v-1aefc0b4><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="零向量" class="logo"> <span class="site-name">零向量</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/代码规范/" class="nav-link"><i class="undefined"></i>
+  代码规范
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端工程化/" class="nav-link"><i class="undefined"></i>
+  前端工程化
+</a></li><li class="dropdown-item"><!----> <a href="/categories/微服务/" class="nav-link"><i class="undefined"></i>
+  微服务
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Serverless/" class="nav-link"><i class="undefined"></i>
+  Serverless
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      文章总览
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>代码规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front_end_development/code/css/" class="nav-link"><i class="undefined"></i>
+  Css
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/html/" class="nav-link"><i class="undefined"></i>
+  Html
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/javascript/" aria-current="page" class="nav-link router-link-exact-active router-link-active"><i class="undefined"></i>
+  Javascript
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/es6/" class="nav-link"><i class="undefined"></i>
+  Es6
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/react/" class="nav-link"><i class="undefined"></i>
+  React
+</a></li></ul></li><li class="dropdown-item"><h4>命名规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front_end_development/name/" class="nav-link"><i class="undefined"></i>
+  命名规范
+</a></li></ul></li><li class="dropdown-item"><h4>前端工程化</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front_end_engineering/" class="nav-link"><i class="undefined"></i>
+  简介
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/01.html" class="nav-link"><i class="undefined"></i>
+  技术选型
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/02.html" class="nav-link"><i class="undefined"></i>
+  统一规范
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/03.html" class="nav-link"><i class="undefined"></i>
+  前端组件化
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/04.html" class="nav-link"><i class="undefined"></i>
+  测试
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/05.html" class="nav-link"><i class="undefined"></i>
+  构建工具
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/06.html" class="nav-link"><i class="undefined"></i>
+  自动化部署
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/07.html" class="nav-link"><i class="undefined"></i>
+  前端监控
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/08.html" class="nav-link"><i class="undefined"></i>
+  性能优化(一)
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/09.html" class="nav-link"><i class="undefined"></i>
+  性能优化(二)
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/10.html" class="nav-link"><i class="undefined"></i>
+  重构
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/11.html" class="nav-link"><i class="undefined"></i>
+  微服务
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/12.html" class="nav-link"><i class="undefined"></i>
+  Serverless
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1aefc0b4></div> <aside class="sidebar" data-v-1aefc0b4><div class="personal-info-wrapper" data-v-39576ba9 data-v-1aefc0b4><img src="/logo.png" alt="author-avatar" class="personal-img" data-v-39576ba9> <!----> <div class="num" data-v-39576ba9><div data-v-39576ba9><h3 data-v-39576ba9>19</h3> <h6 data-v-39576ba9>文章</h6></div> <div data-v-39576ba9><h3 data-v-39576ba9>11</h3> <h6 data-v-39576ba9>标签</h6></div></div> <ul class="social-links" data-v-39576ba9></ul> <hr data-v-39576ba9></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/代码规范/" class="nav-link"><i class="undefined"></i>
+  代码规范
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端工程化/" class="nav-link"><i class="undefined"></i>
+  前端工程化
+</a></li><li class="dropdown-item"><!----> <a href="/categories/微服务/" class="nav-link"><i class="undefined"></i>
+  微服务
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Serverless/" class="nav-link"><i class="undefined"></i>
+  Serverless
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      文章总览
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>代码规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front_end_development/code/css/" class="nav-link"><i class="undefined"></i>
+  Css
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/html/" class="nav-link"><i class="undefined"></i>
+  Html
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/javascript/" aria-current="page" class="nav-link router-link-exact-active router-link-active"><i class="undefined"></i>
+  Javascript
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/es6/" class="nav-link"><i class="undefined"></i>
+  Es6
+</a></li><li class="dropdown-subitem"><a href="/front_end_development/code/react/" class="nav-link"><i class="undefined"></i>
+  React
+</a></li></ul></li><li class="dropdown-item"><h4>命名规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front_end_development/name/" class="nav-link"><i class="undefined"></i>
+  命名规范
+</a></li></ul></li><li class="dropdown-item"><h4>前端工程化</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front_end_engineering/" class="nav-link"><i class="undefined"></i>
+  简介
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/01.html" class="nav-link"><i class="undefined"></i>
+  技术选型
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/02.html" class="nav-link"><i class="undefined"></i>
+  统一规范
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/03.html" class="nav-link"><i class="undefined"></i>
+  前端组件化
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/04.html" class="nav-link"><i class="undefined"></i>
+  测试
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/05.html" class="nav-link"><i class="undefined"></i>
+  构建工具
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/06.html" class="nav-link"><i class="undefined"></i>
+  自动化部署
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/07.html" class="nav-link"><i class="undefined"></i>
+  前端监控
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/08.html" class="nav-link"><i class="undefined"></i>
+  性能优化(一)
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/09.html" class="nav-link"><i class="undefined"></i>
+  性能优化(二)
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/10.html" class="nav-link"><i class="undefined"></i>
+  重构
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/11.html" class="nav-link"><i class="undefined"></i>
+  微服务
+</a></li><li class="dropdown-subitem"><a href="/front_end_engineering/12.html" class="nav-link"><i class="undefined"></i>
+  Serverless
+</a></li></ul></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-25ba6db2 data-v-1aefc0b4><h3 class="title" data-v-25ba6db2 data-v-25ba6db2>Javascript规范</h3> <!----> <label id="box" class="inputBox" data-v-25ba6db2 data-v-25ba6db2><input type="password" value="" data-v-25ba6db2> <span data-v-25ba6db2>Konck! Knock!</span> <button data-v-25ba6db2>OK</button></label> <div class="footer" data-v-25ba6db2 data-v-25ba6db2><span data-v-25ba6db2><i class="iconfont reco-theme" data-v-25ba6db2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-25ba6db2>vuePress-theme-reco</a></span> <span data-v-25ba6db2><i class="iconfont reco-copyright" data-v-25ba6db2></i> <a data-v-25ba6db2><!---->
+            
+          <!---->
+          2022
+        </a></span></div></div> <div data-v-1aefc0b4><main class="page"><section><div class="page-title"><h1 class="title">Javascript规范</h1> <div data-v-f875f3fc><!----> <i class="iconfont reco-date" data-v-f875f3fc><span data-v-f875f3fc>2019/7/29</span></i> <!----> <i class="tags iconfont reco-tag" data-v-f875f3fc><span class="tag-item" data-v-f875f3fc>代码规范</span></i></div></div> <div class="theme-reco-content content__default"><p><img src="https://cdn.jsdelivr.net/gh/MaYaQ/super-duper-train/img/front-end-develop-standard05.jpg" alt=""></p> <h2 id="最佳原则"><a href="#最佳原则" class="header-anchor">#</a> 最佳原则</h2> <p>坚持制定好的代码规范。</p> <p>无论团队人数多少，代码应该同出一门。</p> <h2 id="基本规范"><a href="#基本规范" class="header-anchor">#</a> 基本规范</h2> <h3 id="_1、缩进"><a href="#_1、缩进" class="header-anchor">#</a> 1、缩进</h3> <p>使用 soft tab（4 个空格）。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  y <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  x <span class="token operator">+=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  x <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_2、分号"><a href="#_2、分号" class="header-anchor">#</a> 2、分号</h3> <p>以下几种情况后需加分号：</p> <ul><li>变量声明</li> <li>表达式</li> <li>return</li> <li>throw</li> <li>break</li> <li>continue</li> <li>do-while</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">/* var declaration */</span>
+<span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">/* expression statement */</span>
+x<span class="token operator">++</span><span class="token punctuation">;</span>
+
+<span class="token comment">/* do-while */</span>
+<span class="token keyword">do</span> <span class="token punctuation">{</span>
+  x<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>x <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_3、空格"><a href="#_3、空格" class="header-anchor">#</a> 3、空格</h3> <p>以下几种情况需要空格：</p> <ul><li>二元运算符前后</li> <li>三元运算符'?:'前后</li> <li>代码块'{'前</li> <li>下列关键字前：else, while, catch, finally</li> <li>下列关键字后：if, else, for, while, do, switch, case, try, catch, finally, with, return, typeof</li> <li>单行注释'//'后（若单行注释和代码同行，则'//'前也需要），多行注释'*'后</li> <li>对象的属性值前</li> <li>for 循环，分号后留有一个空格，前置条件如果有多个，逗号后留一个空格</li> <li>无论是函数声明还是函数表达式，'{'前一定要有空格</li> <li>函数的参数之间</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token operator">++</span>x<span class="token punctuation">;</span>
+y<span class="token operator">++</span><span class="token punctuation">;</span>
+z <span class="token operator">=</span> x <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token operator">++</span>x<span class="token punctuation">;</span>
+y<span class="token operator">++</span><span class="token punctuation">;</span>
+z <span class="token operator">=</span> x <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">3</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">3</span><span class="token punctuation">;</span>
+
+<span class="token comment">// no space before '(', one space before '{', one space between function parameters</span>
+<span class="token keyword">var</span> <span class="token function-variable function">doSomething</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// do something</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// no space before '('</span>
+<span class="token function">doSomething</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  x<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  x<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_4、单行注释"><a href="#_4、单行注释" class="header-anchor">#</a> 4、单行注释</h3> <p>双斜线后，必须跟一个空格；缩进与下一行代码保持一致；可位于一个代码行的末尾，与代码间隔一个空格。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// if you made it here, then all security checks passed</span>
+  <span class="token function">allowed</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> zhangsan <span class="token operator">=</span> <span class="token string">&quot;zhangsan&quot;</span><span class="token punctuation">;</span> <span class="token comment">// one space after code</span>
+</code></pre></div><h3 id="_5、多行注释"><a href="#_5、多行注释" class="header-anchor">#</a> 5、多行注释</h3> <p>最少三行, '*'后跟一个空格，具体参照右边的写法；</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">/*
+ * one space after '*'
+ */</span>
+<span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_6、文档注释"><a href="#_6、文档注释" class="header-anchor">#</a> 6、文档注释</h3> <p>建议在以下情况下使用：</p> <ul><li>所有常量</li> <li>所有函数</li> <li>所有类</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">/**
+ * @func
+ * @desc 一个带参数的函数
+ * @param {string} a - 参数a
+ * @param {number} b=1 - 参数b默认值为1
+ * @param {string} c=1 - 参数c有两种支持的取值&lt;/br&gt;1—表示x&lt;/br&gt;2—表示xx
+ * @param {object} d - 参数d为一个对象
+ * @param {string} d.e - 参数d的e属性
+ * @param {string} d.f - 参数d的f属性
+ * @param {object[]} g - 参数g为一个对象数组
+ * @param {string} g.h - 参数g数组中一项的h属性
+ * @param {string} g.i - 参数g数组中一项的i属性
+ * @param {string} [j] - 参数j是一个可选参数
+ */</span>
+<span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">,</span> d<span class="token punctuation">,</span> g<span class="token punctuation">,</span> j</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_7、引号"><a href="#_7、引号" class="header-anchor">#</a> 7、引号</h3> <p>最外层统一使用单引号。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token string">&quot;test&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> y <span class="token operator">=</span> <span class="token string">&quot;foo&quot;</span><span class="token punctuation">,</span>
+  z <span class="token operator">=</span> <span class="token string">'&lt;div id=&quot;test&quot;&gt;&lt;/div&gt;'</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_8、变量声明"><a href="#_8、变量声明" class="header-anchor">#</a> 8、变量声明</h3> <p>一个函数作用域中所有的变量声明尽量提到函数首部，用一个 var 声明，不允许出现两个连续的 var 声明。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">doSomethingWithItems</span><span class="token punctuation">(</span><span class="token parameter">items</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// use one var</span>
+  <span class="token keyword">var</span> value <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    result <span class="token operator">=</span> value <span class="token operator">+</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    i<span class="token punctuation">,</span>
+    len<span class="token punctuation">;</span>
+
+  <span class="token keyword">for</span> <span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> len <span class="token operator">=</span> items<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    result <span class="token operator">+=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_9、函数"><a href="#_9、函数" class="header-anchor">#</a> 9、函数</h3> <ul><li><p>无论是函数声明还是函数表达式，'('前不要空格，但'{'前一定要有空格；</p></li> <li><p>函数调用括号前不需要空格；</p></li> <li><p>立即执行函数外必须包一层括号；</p></li> <li><p>不要给 inline function 命名；</p></li> <li><p>参数之间用', '分隔，注意逗号后有一个空格。</p></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// no space before '(', but one space before'{'</span>
+<span class="token keyword">var</span> <span class="token function-variable function">doSomething</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">item</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// do something</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token parameter">item</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// do something</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good</span>
+<span class="token function">doSomething</span> <span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token function">doSomething</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// requires parentheses around immediately invoked function expressions</span>
+<span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token function">x</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// use ', ' between function parameters</span>
+<span class="token keyword">var</span> <span class="token function-variable function">doSomething</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// do something</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_10、数组、对象"><a href="#_10、数组、对象" class="header-anchor">#</a> 10、数组、对象</h3> <ul><li><p>使用字面值创建对象;</p></li> <li><p>对象属性名不需要加引号；</p></li> <li><p>对象以缩进的形式书写，不要写在一行；</p></li> <li><p>数组、对象最后不要有逗号。</p></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// bad</span>
+<span class="token keyword">var</span> item <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> item <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">c</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">c</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_12、括号"><a href="#_12、括号" class="header-anchor">#</a> 12、括号</h3> <p>下列关键字后必须有大括号（即使代码块的内容只有一行）：if, else, for, while, do, switch, try, catch, finally, with。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_13、null"><a href="#_13、null" class="header-anchor">#</a> 13、null</h3> <p>适用场景：</p> <ul><li>初始化一个将来可能被赋值为对象的变量</li> <li>与已经初始化的变量做比较</li> <li>作为一个参数为对象的函数的调用传参</li> <li>作为一个返回对象的函数的返回值</li></ul> <p>不适用场景：</p> <ul><li>不要用 null 来判断函数调用时有无传参</li> <li>不要与未初始化的变量做比较</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>b <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// not mean b is not supply</span>
+        <span class="token operator">...</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> a<span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_14、undefined"><a href="#_14、undefined" class="header-anchor">#</a> 14、undefined</h3> <ul><li><p>永远不要直接使用 undefined 进行变量判断；</p></li> <li><p>使用 typeof 和字符串'undefined'对变量进行判断。</p></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>person <span class="token operator">===</span> <span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> person <span class="token operator">===</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_15、jshint"><a href="#_15、jshint" class="header-anchor">#</a> 15、jshint</h3> <ul><li><p>用'===', '!=='代替'==', '!='；</p></li> <li><p>for-in 里一定要有 hasOwnProperty 的判断；</p></li> <li><p>不要在内置对象的原型上添加方法，如 Array, Date；</p></li> <li><p>不要在内层作用域的代码里声明了变量，之后却访问到了外层作用域的同名变量；</p></li> <li><p>变量不要先使用后声明；</p></li> <li><p>不要在一句代码中单单使用构造函数，记得将其赋值给某个变量；</p></li> <li><p>不要在同个作用域下声明同名变量；</p></li> <li><p>不要在一些不需要的地方加括号，例：delete(a.b)；</p></li> <li><p>不要使用未声明的变量（全局变量需要加到.jshintrc 文件的 globals 属性里面）；</p></li> <li><p>不要声明了变量却不使用；</p></li> <li><p>不要在应该做比较的地方做赋值；</p></li> <li><p>debugger 不要出现在提交的代码里；</p></li> <li><p>数组中不要存在空元素；</p></li> <li><p>不要在循环内部声明函数；</p></li> <li><p>不要像这样使用构造函数，例：new function () { ... }, new Object；</p></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  a<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  a<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span>key <span class="token keyword">in</span> obj<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>obj<span class="token punctuation">.</span><span class="token function">hasOwnProperty</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// be sure that obj[key] belongs to the object and was not inherited</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good</span>
+<span class="token class-name">Array</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">count</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token number">4</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  x <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">var</span> person <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">delete</span> obj<span class="token punctuation">.</span>attr<span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">delete</span> obj<span class="token punctuation">.</span>attr<span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  a<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token punctuation">,</span> <span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> nums <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">i</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">j</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> i <span class="token operator">+</span> j<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good</span>
+<span class="token keyword">var</span> singleton <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> privateVar<span class="token punctuation">;</span>
+
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">publicMethod</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    privateVar <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">publicMethod2</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    privateVar <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="其他杂项规范"><a href="#其他杂项规范" class="header-anchor">#</a> 其他杂项规范</h2> <ul><li><p>不要混用 tab 和 space；</p></li> <li><p>不要在一处使用多个 tab 或 space；</p></li> <li><p>换行符统一用'LF'；</p></li> <li><p>对上下文 this 的引用只能使用'_this', 'that', 'self'其中一个来命名；</p></li> <li><p>行尾不要有空白字符；</p></li> <li><p>switch 的 falling through 和 no default 的情况一定要有注释特别说明；</p></li> <li><p>不允许有空的代码块。</p></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// not good</span>
+<span class="token keyword">var</span> a   <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// not good</span>
+    <span class="token keyword">var</span> me <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// good</span>
+    <span class="token keyword">var</span> _this <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// good</span>
+    <span class="token keyword">var</span> that <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// good</span>
+    <span class="token keyword">var</span> self <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// good</span>
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+    <span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+        <span class="token operator">...</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token number">3</span><span class="token operator">:</span>
+        <span class="token operator">...</span>
+    <span class="token comment">// why fall through</span>
+    <span class="token keyword">case</span> <span class="token number">4</span>
+        <span class="token operator">...</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token comment">// why no default</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// not good with empty block</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="写在最后"><a href="#写在最后" class="header-anchor">#</a> 写在最后</h2> <h3 id="_1、javascript-代码格式化"><a href="#_1、javascript-代码格式化" class="header-anchor">#</a> 1、JavaScript 代码格式化</h3> <blockquote><p>JavaScript 的代码格式化，能解决部分 JavaScript 代码规范，如代码缩进、空格、分号、换行、引号、大小括号间隔对称等。所以能解决的这些规范仅供参考。</p></blockquote></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/front_end_development/code/css/" class="prev">
+            Css规范
+          </a></span> <span class="next"><a href="/front_end_development/code/es6/">
+            Es6规范
+          </a></span></p></div> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-cb1513f6><li class="level-2" data-v-cb1513f6><a href="/front_end_development/code/javascript/#最佳原则" class="sidebar-link reco-side-最佳原则" data-v-cb1513f6>最佳原则</a></li><li class="level-2" data-v-cb1513f6><a href="/front_end_development/code/javascript/#基本规范" class="sidebar-link reco-side-基本规范" data-v-cb1513f6>基本规范</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_1、缩进" class="sidebar-link reco-side-_1、缩进" data-v-cb1513f6>1、缩进</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_2、分号" class="sidebar-link reco-side-_2、分号" data-v-cb1513f6>2、分号</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_3、空格" class="sidebar-link reco-side-_3、空格" data-v-cb1513f6>3、空格</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_4、单行注释" class="sidebar-link reco-side-_4、单行注释" data-v-cb1513f6>4、单行注释</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_5、多行注释" class="sidebar-link reco-side-_5、多行注释" data-v-cb1513f6>5、多行注释</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_6、文档注释" class="sidebar-link reco-side-_6、文档注释" data-v-cb1513f6>6、文档注释</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_7、引号" class="sidebar-link reco-side-_7、引号" data-v-cb1513f6>7、引号</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_8、变量声明" class="sidebar-link reco-side-_8、变量声明" data-v-cb1513f6>8、变量声明</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_9、函数" class="sidebar-link reco-side-_9、函数" data-v-cb1513f6>9、函数</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_10、数组、对象" class="sidebar-link reco-side-_10、数组、对象" data-v-cb1513f6>10、数组、对象</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_12、括号" class="sidebar-link reco-side-_12、括号" data-v-cb1513f6>12、括号</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_13、null" class="sidebar-link reco-side-_13、null" data-v-cb1513f6>13、null</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_14、undefined" class="sidebar-link reco-side-_14、undefined" data-v-cb1513f6>14、undefined</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_15、jshint" class="sidebar-link reco-side-_15、jshint" data-v-cb1513f6>15、jshint</a></li><li class="level-2" data-v-cb1513f6><a href="/front_end_development/code/javascript/#其他杂项规范" class="sidebar-link reco-side-其他杂项规范" data-v-cb1513f6>其他杂项规范</a></li><li class="level-2" data-v-cb1513f6><a href="/front_end_development/code/javascript/#写在最后" class="sidebar-link reco-side-写在最后" data-v-cb1513f6>写在最后</a></li><li class="level-3" data-v-cb1513f6><a href="/front_end_development/code/javascript/#_1、javascript-代码格式化" class="sidebar-link reco-side-_1、javascript-代码格式化" data-v-cb1513f6>1、JavaScript 代码格式化</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div class="Sakura" data-v-017cf06a><canvas id="canvas_sakura" style="z-index:-1;" data-v-017cf06a></canvas></div></div></div>
+    <script src="/assets/js/app.a75c4bbd.js" defer></script><script src="/assets/js/3.5d4e947c.js" defer></script><script src="/assets/js/1.fb2c499a.js" defer></script><script src="/assets/js/14.eafd3af8.js" defer></script>
+  </body>
+</html>
